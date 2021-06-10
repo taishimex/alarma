@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+   
+}
+
+
+body{
+    font-size: 16px;
+    color: #fff;
+    margin: 0 auto;
+    width: 400px;
+}
+
+
+.widget {
+/* width: 40%; */
+margin: 0.1rem;
+}
+
+.widget p{
+    display: inline-block;
+    /* line-height: 1em; */
+
+}
+
+.fecha{
+    text-align: center;
+    font-size: 2rem;
+    background: rgba(0, 0, 0, 0.8);
+    /* margin-bottom: 0.3125rem; */
+    padding: 3px;
+    width: 100%;
+}
+
+.reloj{
+    text-align: center;
+    font-size: 2.5rem;
+    background: rgba(0,0,0, 0.8);
+    padding: 3px;
+    width: 100%;
+    margin-bottom:0.3125rem;
+
+}
+
+.ampm{
+    font-size: 1.2rem;
+    display: block;
+
+}
+
+.caja-segundos{
+    display:  inline-block;
+
+}
+
+
+.caja-segundos .segundos{
+    font-size: 1rem;
+    /* display: block; */
+
+}
+
+.alarma{
+    text-align: center;
+    font-size: 0.5rem;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 3px;
+    width: 100%;
+   
+    /* margin-bottom: 0.3125rem; */
+
+}
+
+h1{
+    font-size:2rem;
+    color: lime;
+}
+
+.container_alarma{
+    display: inline-block;
+
+}
+.pamopm, .pjikan, .pminuts{
+    display: inline-block;
+    vertical-align: top;
+
+    /* width: 60px; */
+    /* height: 60px; */
+
+    /* width: ; */
+}
+
+.ptema, .btnsave{
+    display: inline-block;
+    vertical-align: top;
+}
+
+ select{
+    font-size: 1rem;
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+input.jikan{
+    font-size: 1rem;
+    width: 70px;
+    height: 50px;
+    border-radius: 7px;
+    text-align: center;
+    margin-right: 10px;
+
+}
+
+input.minuts{
+    font-size: 1rem;
+    width: 80px;
+    height: 50px;
+ 
+    border-radius: 7px;
+    text-align: center;
+}
+
+
+input.tarea{
+    font-size: 1.5rem; 
+    margin:1px 0px 0px 50px;
+    width:240px;
+
+}
+
+
+label, input{
+    display: block;
+    padding: 0px;
+    border: none;
+    outline: none;
+}
+
+label {
+    font-size: 13px;
+}
+
+.btnsave{
+    width:33px;
+    height: 33px;
+    background: #fff;
+    margin: 14px 0px 0px 3px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color:  lime;
+}
+
+.save_alarma{
+    color:  lime;
+    border: none;
+    outline: none;
+    background: #fff;
+
+}
+
+i{
+    padding-top:10px;
+}
+
+
+
+
+
+
+.lista_alarma{
+    text-align: center;
+    font-size: 1.5rem;
+    background: rgba(0, 0, 0, 0.8);
+    /* padding: 3px; */
+    width: 100%;
+}
+
+
+
